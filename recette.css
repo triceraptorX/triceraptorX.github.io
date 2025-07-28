@@ -1,0 +1,124 @@
+            *{
+                overflow: auto;
+            }
+            body{
+                background-color: #8BA1BB;
+                font-family: Arial;}
+            p.Recette{
+                background-color: black;
+                color:white;
+                display: inline-block;
+                margin-top: -10px; 
+                margin-left: 30px; 
+                padding: 8px 18px; 
+                margin-bottom: 0px;
+                font-weight: bold;}
+            div.content{
+                background-color: white; 
+                margin:60px 10% 80px 10%; 
+                padding: 0 30px 30px 30px;
+                box-shadow: 0 0 8px 8px rgba(0,0,0,0.1);
+                min-width: 350px;
+                overflow: visible;
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 12px;}
+            p.Center{
+                text-align: center;}
+            div.Center{
+                text-align: center;
+            }
+            div.Recette{
+                margin-bottom: 0;
+                margin-top: 0;
+                overflow: visible;
+
+            }
+            div.Ligne{
+                background-color: black;
+                width: 100px;
+                height: 1px;
+                border: black 1px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            img.Center{
+                width: 100%;
+            }
+            table.info{
+                position: absolute; 
+                bottom: 0; 
+                width: 100%; 
+                color:white; 
+                background-color: #6C829DC0; 
+                height: 80px;
+
+            }
+            div.info{
+                position: relative;
+            }
+            table.info td{
+                text-align: center;
+                font-size: 14px;
+                vertical-align: top;
+            }
+            table.info th{
+                font-size: 16px;
+                vertical-align: bottom;
+                padding-bottom: 8px;
+            }
+            div.Colone{
+                width: 45%;
+                margin-top: 30px;
+            }
+            div.Colone h2{
+                text-align: center;
+                text-transform: uppercase;
+                border-bottom: 10px solid #6C829D;
+                padding-bottom: 10px;
+                font-size: large;
+            }
+            div.Colone1{
+                display: inline-block;
+                margin-right: 10%;
+            }
+            div.Colone2{
+                float: right;
+
+            }
+            div.Ingrédients{
+                text-align: center;
+                font-size: 14px;
+            }
+            div.Ingrédients p{
+                border: 1px solid lightgrey;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                margin-top: 8px;
+                margin-bottom: 0;
+            }
+            table.Prepa p.Numero{
+                background-color: #6C829D;
+                color: white;
+                text-align: center;
+                font-size: 14px;
+                width: 25px;
+                height: 25px;
+                font-weight: bold;
+                padding-top: 4px;
+                box-sizing: border-box;
+                border-radius: 50%;
+                margin: 0;
+            }
+            table.Prepa td{
+                vertical-align: top;
+            }
+            table.Prepa td.Etapes{
+                font-size: 14px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            table.Prepa tr{
+                height: 40px;
+            }
